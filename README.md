@@ -13,33 +13,21 @@
  
  With integrated security:
  
- <?xml version="1.0" encoding="utf-8" ?>
-<configuration>
-    <configSections>
-    </configSections>
-    <connectionStrings>
-        <add name="vRAIPRes.Properties.Settings.vra_prodConnectionString"
-            connectionString="Data Source=<SQL Instance>;Initial Catalog=<VRA__DB>;Integrated Security=True;TrustServerCertificate=True"
-            providerName="System.Data.SqlClient" />
-    </connectionStrings>
-    <startup> 
-        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5" />
-    </startup>
-</configuration>
+
+<connectionStrings>
+ <add name="vRAIPRes.Properties.Settings.vra_prodConnectionString"
+     connectionString="Data Source=<SQL Instance>;Initial Catalog=<VRA__DB>;Integrated Security=True;TrustServerCertificate=True"
+     providerName="System.Data.SqlClient" />
+</connectionStrings>
+    
  
  With username/password
 
- <?xml version="1.0" encoding="utf-8" ?>
-<configuration>
-    <configSections>
-    </configSections>
-    <connectionStrings>
-        <add name="vRAIPRes.Properties.Settings.vra_prodConnectionString"
+
+<connectionStrings>
+ <add name="vRAIPRes.Properties.Settings.vra_prodConnectionString"
             connectionString="Data Source=<SQL Instance>;Initial Catalog=<VRA__DB>;User Id=myUsername;
 Password=myPassword;TrustServerCertificate=True"
             providerName="System.Data.SqlClient" />
-    </connectionStrings>
-    <startup> 
-        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5" />
-    </startup>
-</configuration>
+</connectionStrings>
+ 
