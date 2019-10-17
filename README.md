@@ -1,6 +1,8 @@
 # vRAIPRes
  This is a tool for vRA IPAM IP Address reservations. It is a winforms based gui tool.
  
+ ![alt text](./vRA_IPRes_ScreenShot.png "Main Screen")
+ 
  To use the tool you need to have read/write access to the vRA mssql database
  
  You need to modify the vRAIPRes.exe.config file. 
